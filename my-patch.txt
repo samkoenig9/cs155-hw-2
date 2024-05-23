@@ -1,0 +1,38 @@
+Return-Path: <samkoenig@u.boisestate.edu>
+Received: from codespaces-d9602d.xd0l5lwoh41ufhyvdn5nxs2bnc.phxx.internal.cloudapp.net ([4.242.222.201])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-1ef0b9d1a04sm253183735ad.50.2024.05.22.21.13.09
+        for <samkoenig@u.boisestate.edu>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 22 May 2024 21:13:09 -0700 (PDT)
+From: Sam Koenig <samkoenig@u.boisestate.edu>
+To: samkoenig@u.boisestate.edu
+Subject: [PATCH] Submit project
+Date: Thu, 23 May 2024 04:13:07 +0000
+Message-ID: <20240523041307.11332-1-samkoenig@u.boisestate.edu>
+X-Mailer: git-send-email 2.44.0
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+---
+ my-name.txt  | 1 +
+ the-date.txt | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 my-name.txt
+ create mode 100644 the-date.txt
+
+diff --git a/my-name.txt b/my-name.txt
+new file mode 100644
+index 0000000..43dc13d
+--- /dev/null
++++ b/my-name.txt
+@@ -0,0 +1 @@
++Sam Koenig
+diff --git a/the-date.txt b/the-date.txt
+new file mode 100644
+index 0000000..16db8a4
+--- /dev/null
++++ b/the-date.txt
+@@ -0,0 +1 @@
++Thu May 23 04:02:42 UTC 2024
+-- 
+2.44.0
